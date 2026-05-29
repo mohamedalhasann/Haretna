@@ -1,25 +1,26 @@
-# BaladiyaConnect
+# Haretna
 
-A web-based system to help Jordan's local municipalities track infrastructure complaints, automatically assign tasks to repair crews, and keep citizens updated on their request status.
+A community-driven website that connects citizens who report local neighborhood issues with volunteers who want to help fix,clean, and beautify their communities in Jordan.
 
 ## What is this project?
-BaladiyaConnect makes it easier for regular people to report broken public massive potholes, broken streetlights, or leaking water to their local municipality. 
-
-Instead of workers doing everything manually over the phone or on paper, the system handles the heavy lifting on the backend. It reads the report, checks which repair crew is free and close by, and sends the task straight to that crew's queue. It also gives citizens an easy way to track their report online and receive live text updates.
+Haretna is a platfrom built for civic action, instead of waiting weeks for the local municipality to handle minor issues,regular people can use this website to report local problems like littered parks, broken benches, or neighborhood walls.
+Once an issue is posted, it appears on a public map. 
+Local youth groups, neighborhood committees, or active residents can step up to lead the fix. 
+They schedule a project day and list exactly what help they need, allowing other volunteers to sign up to physically do the work or pledge to donate the supplies (like trash bags, paint, or tools) to get it done.
 
 ## The Problems It Solves
-Right now, maintaining city streets and neighborhoods in Jordan is slow for a few simple reasons:
-* **No central reporting tools** There isn't one simple app or website to report damage. People use Facebook groups or random phone hotlines, so a lot of complaints get lost or ignored.
-* **Manual scheduling:** The dispatch office doesn't have a clear, live view of what the field crews are doing or where they are located. They assign jobs blindly using phone calls or paper notes.
-* **No tracking for citizens:** Once a citizen reports a problem, they have no idea if anyone is actually working on it until they physically see it fixed.
+
+* **Slow local maintenance** Small issues like trash buildup, unplanted public gardens sit ignored for a long time because official city crews are busy with heavy construction.
+* **Wasted Volunteer energy:** Lots of young people in jordan want to volunteer project,but they lack a live tool to find real-time, local tasks near them.
+* **Lack of resources and coordination** Even when people want to clean up a public space , projects often fall apart because there is no system to organize who is leading , who is showing, and who is bringing the supplies.
 
 ## Core Features (What it actually does)
-1. **Easy Reporting:** Citizens can log a complaint, pick a category (like roads or electricity), and tag their neighborhood or district.
-2. **Smart Auto-Assignment:** The system automatically sends new tickets to the closest crew that has the right skills and the shortest to-do list.
-3. **Crew App/Dashboard:** Crew supervisors can log in, view their daily task list, and change the status of a job to "In-Progress" or "Fixed."
-4. **Live Status Tracker:** Citizens can enter their ticket number online to check the live progress of their complaint and get automatic notification updates.
-5. **Urgent Alerts:** If a serious safety hazard isn't fixed past its deadline, the system automatically sends an urgent alert to the senior engineers.
-6. **Manager Dashboard:** Shows the municipal directors clean, simple charts on how fast issues are getting fixed and which areas have the most problems.
-
+1. **Report an issue:** Citizens can log a complaint, pick a category (like cleanup, painting, or planting), and select their neighborhood.
+2. **Project Adoption:** A community group leader or active neighbor can adopt an open issue and turn it into a scheduled cleanup event.
+3. **Supply Requests:** Project leaders can post a specific list of materials needed for the project.
+4. **Volunteer and Donate:** Volunteers can browse the map and choose to either sign up for physical work on the event day or supply the requested tools.
+5. **Call to action alerts:** The system tracks how long a reported problem sits unmanaged and automatically highlights it on the home page if no leader adopts it within two weeks.
+6. **Community Leaderboard:** A simple page showing basic charts of the most active districts and top volunteer groups to encourage friendly competition.
 ## Tools Used
-* **Visual Paradigm** (For drawing all the project blueprints and workflows)
+* **Visual Paradigm** (For project planning and diagrams)
+* **Target OS:** Linux / Ubuntu
