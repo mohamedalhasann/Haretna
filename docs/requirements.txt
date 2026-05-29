@@ -17,7 +17,7 @@ The way neighborhood upkeep is handled right now faces three main practical prob
 2. disconnected volunteer : willing volunteers and local youth initiatives dont have a live dashboard to see exactly where physical help or cleanup work is needed in their immediate districts, so a lot of good community energy goes to waste.
 3. No Organization: There is no clear tool to track who is leading a community project, agree on specific event dates, or manage the physical supplies needed for a cleanup, making it difficult for projects to succeed.
 
-1.3 proposed solution and system overview:
+1.3 proposed solution and system overview: 
 To solve these problems, we propose Haretna. 
 its a web platform that acts as a bridge between concerned citizens, project leaders, and local volunteers. 
 when a resident reports a problem like a dirty park, the platform puts it on a public map. 
@@ -44,19 +44,20 @@ once these basic operations are stable,subsequent iterations will introduce the 
 
 2.2.1 Functional Requirements (What the system must do)
 
-FR-1: The system shall allow the citizen to report a neighborhood issue by picking a category.
-FR-2: The system shall allow the citizen to type a text description of the reported issue.
-FR-3: The system shall allow the citizen to select their specific district for the report.
-FR-4: The system shall allow a registered community organizer to adopt an open neighborhood issue.
-FR-5: The system shall allow the community organizer to turn an adopted issue into a scheduled volunteer event.
-FR-6: The system shall allow the community organizer to post a list of required materials for the event.
-FR-7: The system shall allow the community organizer to post the number of physical volunteers needed.
-FR-8: The system shall allow users to sign up as physical volunteers for a scheduled event.
-FR-9: The system shall allow users to pledge specific tools or supplies from the organizer's material list.
-FR-10: The system shall track how many days a reported issue has been open.
-FR-11: The system shall automatically move an issue to a "Call to Action" list if it stays unadopted for 14 days.
-FR-12: The system shall generate visual charts showing the number of completed projects in each district.
-FR-13: The system shall generate a leaderboard showing the most active volunteer groups.
+FR-1: The system shall allow the public visitor to browse the live neighborhood map.
+FR-2: The system shall allow the public visitor to view visual charts and leaderboards.
+FR-3: The system shall allow the public visitor to register a new account.
+FR-4: The system shall allow the citizen to report a neighborhood issue by picking a category.
+FR-5: The system shall allow the citizen to type a text description of the reported issue.
+FR-6: The system shall allow the citizen to select their specific district for the report.
+FR-7: The system shall allow a registered community organizer to adopt an open neighborhood issue.
+FR-8: The system shall allow the community organizer to turn an adopted issue into a scheduled volunteer event.
+FR-9: The system shall allow the community organizer to post a list of required materials for the event.
+FR-10: The system shall allow the community organizer to post the number of physical volunteers needed.
+FR-11: The system shall allow users to sign up as physical volunteers for a scheduled event.
+FR-12: The system shall allow users to pledge specific tools or supplies from the organizer's material list.
+FR-13: The system shall track how many days a reported issue has been open.
+FR-14: The system shall automatically move an issue to a "Call to Action" list if it stays unadopted for 14 days.
 
 2.2.2 Non Functional Requirements
 NFR-1 (Performance): The system shall load pages and save user actions within 2 seconds.
