@@ -1,0 +1,68 @@
+Project Title : Haretna
+Student Names: Mohamed Alhasan, Mahmoud Ghunmiyen, Ameen Abu Shanab
+Student IDs : 202311178, 202311290, 
+
+Chapter 1 : Introduction
+
+1.1 Description of the current situation and opportunity:
+local public spaces in Jordan, like neighborhood parks, community walkways, and residential streets, require constant care and upkeep. 
+Right now, when a public area suffers from heavy littering, graffiti, or neglect, residents dont have a central platform to organize and fix it themselves. 
+people usually post complaints on random Facebook groups or wait an exceptionally long time for municipal crews, who are already overwhelmed with heavy infrastructure repairs. 
+at the same time, there is an incredible amount of youth volunteer energy and local community initiatives across Jordan that want to help, but they have no live tool to discover local needs.
+this creates an excellent opportunity for Haretna.
+by building a straightforward web platform that maps neighborhood issues and lets residents coordinate both their labor and materials, we can make our communities cleaner and more beautiful through direct civic action.
+
+The way neighborhood upkeep is handled right now faces three main practical problems:
+1. Scattered complaints: Residents lack a single, simple tool to point out local public spaces that need attention. Because issues are shared across fragmented chat groups or personal feeds, neighborhood problems remain hidden from the wider public.
+2. disconnected volunteer : willing volunteers and local youth initiatives dont have a live dashboard to see exactly where physical help or cleanup work is needed in their immediate districts, so a lot of good community energy goes to waste.
+3. No Organization: There is no clear tool to track who is leading a community project, agree on specific event dates, or manage the physical supplies needed for a cleanup, making it difficult for projects to succeed.
+
+1.3 proposed solution and system overview: 
+To solve these problems, we propose Haretna. 
+its a web platform that acts as a bridge between concerned citizens, project leaders, and local volunteers. 
+when a resident reports a problem like a dirty park, the platform puts it on a public map. 
+A community leader can then adopt the issue, schedule a cleanup date, and list what supplies are needed. 
+neighbors can choose how they want to help: they can either sign up to do the physical work on that day or pledge to bring the requested tools and supplies.
+
+1.4 Project Objectives:
+The main goals of the Haretna system are:
+1. To build a reliable public database that saves and maps out neighborhood cleaning needs.
+2. To create an adoption feature that lets community leaders claim an issue and set up a structured event.
+3. To design a supply tracker that lets leaders ask for tools and lets users pledge to bring them.
+4. To make an automated alert feature that highlights old, unadopted problems on a "Call to Action" page to find volunteers faster.
+5. To design a leaderboard page that shows completed projects and active groups to build community pride.
+
+Chapter 2: Requirements and Analysis
+
+2.1 Software Process Model used : the Iterative Development Model will be used
+instead of trying to build the entire system all at once, the Iterative model allows us to design, implement, test the project in smaller cycles.
+in the first iteration, the focus will be on setting up the core database structure, foundational features such as submitting a report and allowing field crews to update a ticket's status
+once these basic operations are stable,subsequent iterations will introduce the more complex backend logic, including the automated crew-assignment algorithm,the live citizen tracking system,and the automated SLA escalation background processes
+
+2.2 List of Funcional and Non-Functional Requirements:
+
+
+2.2.1 Functional Requirements (What the system must do)
+
+FR-1: The system shall allow the public visitor to browse the live neighborhood map.
+FR-2: The system shall allow the public visitor to view visual charts and leaderboards.
+FR-3: The system shall allow the public visitor to register a new account.
+FR-4: The system shall allow the citizen to report a neighborhood issue by picking a category.
+FR-5: The system shall allow the citizen to type a text description of the reported issue.
+FR-6: The system shall allow the citizen to select their specific district for the report.
+FR-7: The system shall allow a registered community organizer to adopt an open neighborhood issue.
+FR-8: The system shall allow the community organizer to turn an adopted issue into a scheduled volunteer event.
+FR-9: The system shall allow the community organizer to post a list of required materials for the event.
+FR-10: The system shall allow the community organizer to post the number of physical volunteers needed.
+FR-11: The system shall allow users to sign up as physical volunteers for a scheduled event.
+FR-12: The system shall allow users to pledge specific tools or supplies from the organizer's material list.
+FR-13: The system shall track how many days a reported issue has been open.
+FR-14: The system shall automatically move an issue to a "Call to Action" list if it stays unadopted for 14 days.
+
+2.2.2 Non Functional Requirements
+NFR-1 (Performance): The system shall load pages and save user actions within 2 seconds.
+NFR-3 (Security): The system shall require a secure username and password login to report an issue, adopt a project, or sign up for a task.
+NFR-4 (Security): The system shall restrict non-logged-in visitors to read-only browsing of the public map and charts.
+NFR-5 (Usability): The system shall automatically adjust its layout to fit cleanly on mobile smartphone screens.
+
+    
