@@ -36,11 +36,7 @@ Chapter 2: Requirements and Analysis
 
 2.1 Software Process Model used : the Iterative Development Model will be used
 instead of trying to build the entire system all at once, the Iterative model allows us to design, implement, test the project in smaller cycles.
-in the first iteration, the focus will be on setting up the core database structure, foundational features such as submitting a report and allowing field crews to update a ticket's status
-once these basic operations are stable,subsequent iterations will introduce the more complex backend logic, including the automated crew-assignment algorithm,the live citizen tracking system,and the automated SLA escalation background processes
-
 2.2 List of Funcional and Non-Functional Requirements:
-
 
 2.2.1 Functional Requirements (What the system must do)
 
