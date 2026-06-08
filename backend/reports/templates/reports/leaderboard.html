@@ -1,0 +1,13 @@
+{% extends 'reports/base.html' %}
+{% block content %}
+  <h1>Community Leaderboard</h1>
+  {% if leaderboard %}
+    <ol>
+      {% for name, count in leaderboard %}
+        <li>{{ name }} — {{ count }} issue(s)</li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p>No reports yet.</p>
+  {% endif %}
+{% endblock %}

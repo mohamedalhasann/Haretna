@@ -1,0 +1,32 @@
+{% extends 'reports/base.html' %}
+{% block content %}
+  <h1>Open Issues</h1>
+  <table class="table table-striped">
+    <thead>
+      <tr><th>Title</th><th>Category</th><th>Neighborhood</th><th>Status</th><th>Reported</th><th>Action</th></tr>
+    </thead>
+    <tbody>
+      {% for issue in issues %}
+        <tr>
+          <td>{{ issue.title }}</td>
+          <td>{{ issue.category }}</td>
+          <td>{{ issue.neighborhood }}</td>
+          <td>{{ issue.status }}</td>
+          <td>{{ issue.reported_at }}</td>
+          <td>
+            {% if issue.status == 'Open' %}
+              <form method="post" action="{% url 'reports:adopt' issue.pk %}">{% csrf_token %}
+                <input class="form-control d-inline-block w-auto" name="adopter" placeholder="Your name" required>
+                <button class="btn btn-primary btn-sm">Adopt</button>
+              </form>
+            {% else %}
+              {{ issue.adopted_by }}
+            {% endif %}
+          </td>
+        </tr>
+      {% empty %}
+        <tr><td colspan="6">No issues yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
