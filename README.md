@@ -32,7 +32,7 @@ This repository contains a modern web implementation:
 
 ---
 
-## 🚀 How to Run the Website
+## How to Run the Website
 
 ### Prerequisites
 You need to have installed on your machine:
@@ -138,14 +138,12 @@ python manage.py migrate   # Recreate it
 
 ---
 
-## 📋 What You Can Do
+## What You Can Do
 
 Report neighborhood issues  
 Browse all reported problems  
 Adopt issues and create volunteer events  
 Sign up for cleanup events  
 Pledge supplies to help projects  
-✅ View community leaderboard  
-✅ See urgent issues needing adoption (14+ days old)
-
-Enjoy! 🌍
+View community leaderboard  
+See urgent issues needing adoption (14+ days old)
