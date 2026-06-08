@@ -102,14 +102,14 @@ npm run dev
 
 ---
 
-## 🛑 To Stop the Website
+## To Stop the Website
 
 - Press **Ctrl+C** in both terminal windows to stop the servers
 - Close your browser tab
 
 ---
 
-## ❓ Troubleshooting
+## Troubleshooting
 
 **Backend port already in use?**
 ```bash
@@ -140,11 +140,11 @@ python manage.py migrate   # Recreate it
 
 ## 📋 What You Can Do
 
-✅ Report neighborhood issues  
-✅ Browse all reported problems  
-✅ Adopt issues and create volunteer events  
-✅ Sign up for cleanup events  
-✅ Pledge supplies to help projects  
+Report neighborhood issues  
+Browse all reported problems  
+Adopt issues and create volunteer events  
+Sign up for cleanup events  
+Pledge supplies to help projects  
 ✅ View community leaderboard  
 ✅ See urgent issues needing adoption (14+ days old)
 
